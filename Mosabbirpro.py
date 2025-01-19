@@ -1,4 +1,4 @@
-#-----------------[ GALAXY ]-------------------#
+#-----------------[ Mosabbirpro]-------------------#
  
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
@@ -38,9 +38,7 @@ os.system("espeak -a 300 \"SUBSCRIBE,MY,YOUTUBE,CHANNEL,\"")
 time.sleep(2)
 os.system(f'xdg-open https://youtube.com/@Galaxy_90x')
 os.system(f'xdg-open https://www.facebook.com/Galaxy.Gamer.90.X')
-##os.system("espeak -a 300 \"Enter,Username,and,password, \"")##
-#------------------[ GALAXY ]-------------------#
-#------------------[ USER-AGENT ]-------------------#
+
 ua = ["Mozilla/5.0 (Linux; Android 11; 2107113SI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36",]
 ua = ["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",]
 ua = ["Mozilla/5.0 (Linux; Android 11; RMX2193 Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/94.0.4606.85 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/385.0.0.32.114",]
