@@ -1661,39 +1661,7 @@ fuckyoursali =(""" \033[32;1m[𝟷] 𝚈𝙾𝚄𝚁 𝚃𝙾𝙺𝙴𝙽 𝙸�
 xudinaministar =(""" \033[38;1m[-] 𝗜𝗠𝗣𝗢𝗥𝗧𝗘𝗡𝗧 𝗡𝗢𝗧𝗘""")
 hedaborakarent =(""" \033[35;1m[𝟸] 𝙵𝚄𝙲𝙺 𝙱𝚈𝙿𝙰𝚂𝙰𝚁 𝙲𝙷𝙰𝙺𝙴 𝚈𝙾𝚄𝚁 𝙳𝙰𝚃𝙰 𝙰𝙱𝙰𝙻🤡 """)
 
-                  #____APPROVAL SYSTEM ADD_____#
-def meyexudi():
-  os.system('clear')
-  print(logo)
-  uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "-".join(uuid)
-  try:
-    httpCaht = requests.get('https://youtube.com/@bastehoilejantehobe?si=p654F9IGzmq5xZrG').text
-    if id in httpCaht:
-      print(fuckyoursali)
-      print(hedaborakarent)
-      msg = str(os.geteuid())
-      #time.sleep(0.5)
-      print()
-      pass
-    else:
-      print(meyermarexudi)
-     # print(" \033[32;1m[+] Your Kay : "+id)
-      print('\033[38;5;46m╔══[∆]  𝗙𝗥𝗘𝗘-𝗙𝗜𝗥𝗘-𝗧𝗜𝗞-𝗧𝗢𝗞- 𝗜𝗗 𝗖𝗟𝗢𝗡𝗜𝗡𝗚')      
-      print('\033[38;5;46m║══[∆]  𝗢𝗡𝗟𝗬 𝗔𝗖𝗧𝗜𝗩𝗘 𝗜𝗗 𝗖𝗟𝗢𝗡𝗘 𝟭𝟬𝟬%')
-      print('\033[38;5;46m║══[∆]  𝗖𝗣 𝗜𝗗 𝗪𝗜𝗟𝗟 𝗕𝗘 𝗟𝗢𝗚𝗜𝗡 𝟴𝟬%')
-      print('\033[38;5;46m║══[∆]  𝗪𝗜-𝗙𝗜  𝗔𝗡𝗗 𝗗𝗔𝗧𝗔 𝗕𝗢𝗧𝗛 𝗪𝗢𝗥𝗞𝗜𝗡𝗚 𝟭𝟬𝟬%')
-      print('\033[38;5;46m║══[∆]  𝟬𝟳 𝗗𝗔𝗬 𝟮𝟬𝟬 𝗧𝗔𝗞𝗔 ')
-      print('\033[38;5;46m║══[∆]  𝟭𝟱 𝗗𝗔𝗬 𝟱𝟬𝟬 𝗧𝗔𝗞𝗔 ')
-      os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   MosabbirPro,    Please,   Send,   Your,   Key,"')
-      print("\x1b[0m║══[𝟮] 𝗬𝗢𝗨𝗥 𝗞𝗘𝗬 : "+id)
-      input('\033[1;30m╚══[𝟯]𝗜𝗙 𝗨 𝗪𝗔𝗡𝗧 𝗧𝗢 𝗕𝗨𝗬 𝗧𝗛𝗘𝗡 𝗣𝗥𝗘𝗦𝗦 𝗘𝗡𝗧𝗘𝗥 ')
-      tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+8801725825367?text='+tks),approval()      
-      time.sleep(1)
-      meyexudi()
-  except:
-    sys.exit()
-meyexudi()
+                  
 #os.system("python G-ULTRA.py")
 def naima():
 	print('-------------------')
