@@ -1905,60 +1905,7 @@ def result():
         animation(' \033[95;1m[\033[92;1m•\033[95;1m] 𝗡𝗢 𝗢𝗣𝗧𝗜𝗢𝗡 𝗙𝗢𝗨𝗡𝗗 𝗜𝗡 𝗠𝗘𝗡𝗨')
         exit()
  
-#-------------------[ CRACK-PUBLIK ]----------------#
- 
-def dump_massal():
-    try:
-        token = open('.token.txt','r').read()
-        cok = open('.cok.txt','r').read()
-    except IOError:
-        exit()
-    try:
-        print('\033[0;91m==================')
-        jum = int(input(' \033[95;1m[\033[92;1m•\033[95;1m] 𝗘𝗡𝗧𝗘𝗥 𝗧𝗔𝗥𝗚𝗘𝗧 𝗔𝗠𝗢𝗨𝗡𝗧  : '))
-        print('\033[0;91m==================')
-    except ValueError:
-        print('\033[0;91m==================')
-        animation(' [×] 𝗜𝗡𝗩𝗔𝗟𝗜𝗗 𝗢𝗣𝗧𝗜𝗢𝗡')
-        exit()
-    if jum<1 or jum>100000000:
-        print('\033[0;91m==================')
-        animation(' [×] 𝗧𝗥𝗬 𝗔𝗚𝗔𝗜𝗡')
-        exit()
-    ses=requests.Session()
-    yz = 0
-    for met in range(jum):
-        yz+=1
-        kl = input(' \033[97;1m[\033[92;1m•\033[95;1m] 𝗜𝗡𝗣𝗨𝗧 𝗨𝗜𝗗'+str(yz)+' : ')
-        uid.append(kl)
-    for userr in uid:
-        try:
-            col = ses.get('https://graph.facebook.com/v2.0/'+userr+'?fields=friends.limit(5000)&access_token='+tokenku[0], cookies = {'cookies':cok}).json()
-            for mi in col['friends']['data']:
-                try:
-                    iso = (mi['id']+'|'+mi['name'])
-                    if iso in id:pass
-                    else:id.append(iso)
-                except:continue
-        except (KeyError,IOError):
-            pass
-        except requests.exceptions.ConnectionError:
-            print('\033[0;95m==================')
-            animation(' [×] 𝗧𝗥𝗬 𝗔𝗚𝗔𝗜𝗡')
-            os.system('clear')
-    try:
-        print('\033[0;91m==================')
-        print(f' \033[92;1m[\033[92;1m•\033[92;1m] 𝗧𝗢𝗧𝗔𝗟 𝗜𝗗 : \u001b[36m'+str(len(id))+'\033[1;37m')
-        setting()
-    except requests.exceptions.ConnectionError:
-        print(f'{u}')
-        back()
-    except (KeyError,IOError):
-        print('\033[0;91m==================')
-        animation(" [×] 𝗗𝗨𝗠𝗣 𝗜𝗗 𝗙𝗔𝗜𝗟𝗘𝗗 ")
-        time.sleep(3)
-        back()
- 
+
 #-------------[ CRACK-FROM-FILE ]------------------#
  
 def crack_file():
