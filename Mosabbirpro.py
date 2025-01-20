@@ -32,7 +32,7 @@ time.sleep(2)
 print('\033[91;1m[\x1b[31;5;50m+\033[91;1m] \x1b[31;5;50mUPDATE VERSHON 0.1...! ')
 os.system("espeak -a 300 \"UPDATE VERSION 0.1,\"")
 time.sleep(2)
-os.system(f'xdg-open https://https://youtube.com/@bastehoilejantehobe?si=GNfEpJDEmqkP7zOD')
+os.system(f'xdg-open https://https://youtube.com/@bastehoilejantehobe?')
 os.system(f'xdg-open https://www.facebook.com/MOSABBIR2025')
 
 ua = ["Mozilla/5.0 (Linux; Android 11; 2107113SI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36",]
